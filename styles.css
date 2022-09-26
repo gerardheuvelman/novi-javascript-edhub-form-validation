@@ -1,0 +1,45 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*vertical elements*/
+.vcontainer {
+    display: flex;
+    flex-direction: column;
+}
+/*horizontal elements*/
+.hcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#top-page-margin {
+    flex-basis: 250px;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: lime;
+    padding: 40px;
+}
+
+#login>h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.valdation {
+    display: inline-block;
+    color: red;
+    margin-bottom: 30px;
+    height: 10px;
+}
